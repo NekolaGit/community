@@ -1,0 +1,16 @@
+.img-head {
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+}
+
+.launch {
+    margin-top: 4px;
+    text-align: center;
+    width: 76px;
+    line-height: 16px;
+}
+
+.line {
+    border-right: 1px solid #e6e6e6;
+}

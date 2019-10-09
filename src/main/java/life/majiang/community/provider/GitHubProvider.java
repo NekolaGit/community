@@ -23,8 +23,7 @@ public class GitHubProvider {
                 .post(body)
                 .build();
         try (Response response = client.newCall(request).execute()) {
-            String accessToken = response.body().string();
-            return accessToken;
+            return response.body().string();
         } catch (IOException e) {
             e.printStackTrace();
         }
